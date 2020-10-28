@@ -1,0 +1,75 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 10px;
+  color: #413C58
+}
+
+h2 {
+  font-weight: 400;
+}
+
+a {
+  color: #413C58;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F2E7C9;
+}
+
+.blue-button {
+  background-color: #BFD7B5;
+  border-radius: 20px;
+}
+
+.blue-button:hover {
+  background-color: #A3C4BC;
+}
+
+.rounded_picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.list-inline {
+  padding-left: 0px!important;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.homecard, div {
+  width: 400px;
+  margin: 15px auto;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+@media (max-width: 960px) {
+  .homecard, div {
+    width: 600;
+  }
+}
+
+@media (max-width: 540px) {
+  .homecard, div {
+    width: 200px;
+  }
+}
+
